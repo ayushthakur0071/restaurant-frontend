@@ -3,6 +3,9 @@
       "name": "Restaurant Service Management System",
       "version": "0.1.0",
       "private": true,
+      "engines": {
+         "node": ">=18 <=20"
+        },
       "dependencies": {
           "@radix-ui/react-accordion": "^1.2.3",
           "@radix-ui/react-alert-dialog": "^1.1.6",
@@ -56,8 +59,5 @@
           "dev": "vite",
           "build": "vite build"
       },
-      "engines": {
-         "node": "18.x"
-        }
 
   }
