@@ -1,3 +1,5 @@
+import Button from '../ui/Button';
+import Card from '../ui/Card';
 import React, { useEffect, useState } from 'react';
 import { ChefHat, Clock, Award, Star, Flame, MapPin, PhoneCall, Smartphone } from 'lucide-react';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
